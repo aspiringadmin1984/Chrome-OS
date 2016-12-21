@@ -14,17 +14,10 @@
 }
 
 #panelRight {
-    padding-right: 10px;
-    padding-left: 10px;
-    border-image: url('panel.png') 5 6 5 5;
 }
 
 #panelLeft {
     padding-left: 6px;
-}
-
-#panelLeft .applet-box:first-child{
-    border-image: url('applet-box.png') 5 5 5 8;
 }
 
 .popup-menu,
@@ -361,8 +354,7 @@ StScrollBar StButton#hhandle {
     font-size: 8.5pt;
     font-weight: normal;
     height: 44px;
-    border: inset 0 rgba(0,0,0,0.9);
-    border-bottom-width: 4px;
+    border: none;
 }
 #panelLeft {
     spacing: 0px;
@@ -853,7 +845,8 @@ StScrollBar StButton#hhandle {
     width: 23em;
     padding: 8px;
     color: black;
-    selection-background-color: white;
+    selection-background-color: #3399ff;
+    selected-color: #fff;
 }
 .run-dialog-completion-box {
     padding-left: 15px;
@@ -1295,35 +1288,30 @@ StScrollBar StButton#hhandle {
     min-width: 5px;
 }
 .window-list-item-box {
-    color: black;
+    color: white;
+    text-shadow: 1px 1px 2px black;
     padding-left: 0px;
     padding-right: 0px;
     transition-duration: 50;
-    border-image: url('active.png') 4 4 4 4;
 }
 .window-list-item-box:hover    {
-    color: black;
     padding-left: 0px;
     padding-right: 0px;
 }
 .window-list-item-box:active,
 .window-list-item-box:checked,
 .window-list-item-box:focus    {
-    color: black;
     padding-left: 0px;
     padding-right: 0px;
-    border-image: url('active2.png') 4 4 4 4;
 }
 .window-list-item-box:checked:hover,
 .window-list-item-box:focus:hover,
 .window-list-item-box:active:hover  {
-    color: black;
     padding-left: 0px;
     padding-right: 0px;
 }
 
 .window-list-item-demands-attention {
-    color: black;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -1504,7 +1492,7 @@ StScrollBar StButton#hhandle {
     transition-duration: 50;
 }
 .applet-box:hover {
-    border-image: url('hover-box.png') 4 4 4 4;
+    background-color: rgba(255,255,255,0.3);
 }
 .applet-label {
     font-weight: normal;
