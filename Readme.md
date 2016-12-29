@@ -1,6 +1,6 @@
-# Android theme for Linux
+#Chrome OS's theme for Linux
 
-![android-theme](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2016-12-21-10-55-36_orig.png)
+![chromeos-theme](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2016-10-18-16-18-36_orig.png)
 
 **Maintainer:** [Elbullazul](https://github.com/elbullazul)
 
