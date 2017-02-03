@@ -2243,7 +2243,7 @@ headerbar entry selection:focus {
 
 button.titlebutton {
   border-width: 0;
-  background-color: @theme_base_color;
+  background-color: @titlebar_bg_color;
   -gtk-gtk-icon-shadow: none; }
   button.titlebutton:backdrop {
     -gtk-gtk-icon-shadow: none; }
