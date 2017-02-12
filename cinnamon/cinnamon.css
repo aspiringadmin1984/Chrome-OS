@@ -1517,14 +1517,14 @@ StScrollBar StButton#hhandle {
  * ===================================================================*/
 .workspace-osd {
     padding: 9px 15px;
-    color: black;
+    color: white;
     font-weight: normal;
     font-size: 26pt;
     box-shadow: 0 0 12px 1px rgba(0,0,0,0.6);
 }
 .expo-workspaces-name-entry {
     padding: 6px;
-    color: black;
+    color: white;
     font-weight: normal;
     caret-color: white;
     caret-size: 2px;
@@ -1533,10 +1533,10 @@ StScrollBar StButton#hhandle {
 }
 .expo-workspaces-name-entry#selected {
     font-weight: normal;
-    color: black;
+    color: white;
 }
 .expo-workspaces-name-entry:focus {
-    color: black;
+    color: white;
     font-weight: normal;
     font-style: italic;
 }
@@ -1652,7 +1652,7 @@ StScrollBar StButton#hhandle {
  * ===================================================================*/
 .info-osd { /* Window snap message */
     font-size: 24pt;
-    color: black;
+    color: white;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -1661,7 +1661,7 @@ StScrollBar StButton#hhandle {
     box-shadow: 0 0 12px 1px rgba(0,0,0,0.6);
 }
 .osd-window { /* Media key */
-    color: black;
+    color: white;
     padding: 20px;
     spacing: 5px;
     box-shadow: 0 0 12px 1px rgba(0,0,0,0.6);
