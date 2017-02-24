@@ -295,6 +295,15 @@ button.default:active:hover {
     background-color: shade(@theme_selected_bg_color, 0.97);
 }
 
+/* flat button */
+button.flat,
+button.flat:checked {
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+
 /****************
  * cell and row *
  ****************/
@@ -2243,13 +2252,8 @@ headerbar entry selection:focus {
 
 button.titlebutton {
   border-width: 0;
-  background-color: transparent;
+  background-color: @theme_base_color;
   -gtk-gtk-icon-shadow: none; }
- button.titlebutton:hover {
-  background-color: alpha(@theme_base_color, 0.3); }
- button.titlebutton:active,
- button.titlebutton:checked {
-  background-color: alpha(@theme_fg_color, 0.1); }
   button.titlebutton:backdrop {
     -gtk-gtk-icon-shadow: none; }
 
@@ -3584,7 +3588,7 @@ GtkBubbleWindow toolbar {
 decoration {
   border-radius: 0;
   border-width: 0px;
-  box-shadow: 0 3px 9px 1px @fg_color, 0 0 0 1px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 9px 1px @dark_shadow, 0 0 0 1px rgba(0, 0, 0, 0.23);
   margin: 10px; }
   decoration:backdrop {
     box-shadow: 0 3px 9px 1px transparent, 0 2px 6px 2px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.18);
@@ -3611,9 +3615,9 @@ decoration {
     background-color: @bg_color;
     border: solid 1px shade(@bg_color, 0.8);
     border-radius: 0;
-    box-shadow: inset 0 0 0 3px @fg_color, inset 0 1px rgba(20, 20, 20, 0.8); }
+    box-shadow: inset 0 0 0 3px @dark_shadow, inset 0 1px rgba(20, 20, 20, 0.8); }
     .solid-csd decoration:backdrop {
-      box-shadow: inset 0 0 0 3px @fg_color, inset 0 1px rgba(20, 20, 20, 0.8); }
+      box-shadow: inset 0 0 0 3px @dark_shadow, inset 0 1px rgba(20, 20, 20, 0.8); }
 
 /* Server-side decoration (SSD) */
 .window-frame.ssd {
